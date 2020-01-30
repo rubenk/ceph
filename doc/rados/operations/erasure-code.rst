@@ -30,7 +30,7 @@ requires at least three hosts::
 Erasure code profiles
 ---------------------
 
-The default erasure code profile sustains the loss of a two OSDs. It
+The default erasure code profile can sustain the loss of two OSDs. It
 is equivalent to a replicated pool of size three but requires 2TB
 instead of 3TB to store 1TB of data. The default profile can be
 displayed with::
